@@ -1,0 +1,23 @@
+# Locally owned vendor apps, generated outputs, and user media never belong in Git.
+*.app/
+*.dylib
+*.o
+*.zip
+*.fish
+*.icns
+*.nib
+*.heic
+*.HEIC
+*.jpg
+*.jpeg
+*.png
+*.mp4
+build/
+dist/
+work/
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
